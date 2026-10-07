@@ -1,8 +1,0 @@
-{
-  "framework": { "name": "vite" },
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "frameworkVersion": null,
-  "trailingSlash": false
-}
