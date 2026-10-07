@@ -1,0 +1,26 @@
+[
+  {
+    "id": "discover",
+    "step": "01",
+    "title": "Discover",
+    "description": "We map your business goals, daily workflows and bottlenecks before writing a single line of code."
+  },
+  {
+    "id": "design",
+    "step": "02",
+    "title": "Design",
+    "description": "Practical architecture and UX blueprints shaped around scalability, speed and long-term maintainability."
+  },
+  {
+    "id": "build",
+    "step": "03",
+    "title": "Build & Digitize",
+    "description": "Our engineers develop, integrate and automate — turning manual operations into reliable digital systems."
+  },
+  {
+    "id": "grow",
+    "step": "04",
+    "title": "Launch & Grow",
+    "description": "We deploy, measure and optimise, then keep supporting your growth with marketing and system upgrades."
+  }
+]

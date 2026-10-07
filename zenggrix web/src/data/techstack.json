@@ -1,0 +1,53 @@
+{
+  "stats": [
+    {
+      "id": "s1",
+      "value": "50+",
+      "label": "Systems & Projects Delivered",
+      "subtext": "Across Retail, Logistics, Healthcare & B2B"
+    },
+    {
+      "id": "s2",
+      "value": "99.9%",
+      "label": "Production System Uptime",
+      "subtext": "Cloud-resilient, fault-tolerant architectures"
+    },
+    {
+      "id": "s3",
+      "value": "100%",
+      "label": "Full IP & Code Ownership",
+      "subtext": "Zero vendor lock-in with complete handover"
+    },
+    {
+      "id": "s4",
+      "value": "<15 min",
+      "label": "Priority Response SLA",
+      "subtext": "Direct engineer access via WhatsApp & phone"
+    }
+  ],
+  "categories": [
+    { "key": "all", "label": "Full Stack" },
+    { "key": "frontend", "label": "Frontend & Mobile" },
+    { "key": "backend", "label": "Backend & APIs" },
+    { "key": "data", "label": "Databases & Cloud" },
+    { "key": "automation", "label": "Automation & Integration" }
+  ],
+  "technologies": [
+    { "name": "React 18", "category": "frontend", "tag": "Web UI", "desc": "Component-driven responsive interfaces" },
+    { "name": "Next.js", "category": "frontend", "tag": "SSR & SEO", "desc": "High-speed corporate & e-commerce platforms" },
+    { "name": "TypeScript", "category": "frontend", "tag": "Type-Safe", "desc": "Strict typed frontend and backend architectures" },
+    { "name": "Tailwind CSS", "category": "frontend", "tag": "Modern UI", "desc": "Utility-first bespoke responsive styling" },
+    { "name": "Node.js", "category": "backend", "tag": "Runtime", "desc": "Asynchronous high-throughput server backends" },
+    { "name": "Python", "category": "backend", "tag": "Automation", "desc": "Workflow scripts, data pipelines & bot engines" },
+    { "name": "FastAPI", "category": "backend", "tag": "Microservices", "desc": "Ultra-fast RESTful API endpoints" },
+    { "name": "PostgreSQL", "category": "data", "tag": "Relational DB", "desc": "ACID-compliant enterprise transactional data" },
+    { "name": "Redis", "category": "data", "tag": "In-Memory", "desc": "Microsecond caching & real-time queues" },
+    { "name": "Docker", "category": "data", "tag": "DevOps", "desc": "Containerized consistent cloud deployments" },
+    { "name": "AWS Cloud", "category": "data", "tag": "Hosting", "desc": "Scalable virtual servers, S3 storage & CDNs" },
+    { "name": "WhatsApp Cloud API", "category": "automation", "tag": "Bot Engine", "desc": "Automated order receipts, alerts & marketing" },
+    { "name": "REST & GraphQL", "category": "backend", "tag": "APIs", "desc": "Standardized secure third-party integrations" },
+    { "name": "Electron", "category": "frontend", "tag": "Desktop POS", "desc": "Cross-platform offline-first desktop apps" },
+    { "name": "Linux / Ubuntu", "category": "data", "tag": "Infrastructure", "desc": "Hardened secure production servers" },
+    { "name": "Cloudflare", "category": "data", "tag": "Security", "desc": "DDoS shielding, SSL & global edge caching" }
+  ]
+}

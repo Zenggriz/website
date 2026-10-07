@@ -1,0 +1,116 @@
+[
+  {
+    "id": "apex-retail-erp",
+    "title": "Apex Retail Cloud ERP & Multi-Branch POS",
+    "client": "OmniRetail Group",
+    "category": "ERP & POS",
+    "categoryKey": "erp",
+    "image": "/projects/erp-pos.jpg",
+    "summary": "Unified cloud inventory control, high-speed barcode POS billing terminals, and automated financial accounting across 12 physical branches.",
+    "problem": "Manual inventory reconciliations took 4+ hours daily, with severe stock discrepancies between warehouse and retail outlets, and slow checkout queues.",
+    "solution": "Built a lightning-fast React + Node.js distributed POS terminal with offline-first billing, central cloud sync, automated low-stock reordering, and instant fiscal tax invoicing.",
+    "results": [
+      "+300% faster customer checkout time",
+      "Zero stock leakage & 99.8% inventory accuracy",
+      "Real-time consolidated profit & loss statements"
+    ],
+    "heroMetric": "+300% Billing Speed",
+    "tags": ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Redis"],
+    "featured": true
+  },
+  {
+    "id": "nexgen-logistics-fleet",
+    "title": "NexGen Logistics & Real-Time Fleet Automation",
+    "client": "SwiftFreight Logistics",
+    "category": "Automation",
+    "categoryKey": "automation",
+    "image": "/projects/logistics.jpg",
+    "summary": "AI-assisted parcel dispatching, GPS route optimization, and automated WhatsApp client notifications for rapid delivery operations.",
+    "problem": "Manual order assignment caused recurring driver delays, unoptimized fuel routes, and hundreds of daily inbound support calls inquiring 'where is my package?'.",
+    "solution": "Developed an automated dispatch engine with live telemetry tracking, automated driver route sequencing, and triggered WhatsApp bot status updates upon milestone events.",
+    "results": [
+      "40% reduction in vehicle fuel consumption",
+      "15,000+ daily deliveries tracked autonomously",
+      "85% decrease in customer support inquiry calls"
+    ],
+    "heroMetric": "40% Fuel Saved",
+    "tags": ["Python", "FastAPI", "React", "WhatsApp Cloud API", "Maps SDK"],
+    "featured": true
+  },
+  {
+    "id": "medix-clinic-portal",
+    "title": "Medix Smart Healthcare & EMR Clinic Portal",
+    "client": "Al-Shifa Healthcare Network",
+    "category": "Web Apps",
+    "categoryKey": "web",
+    "image": "/projects/medix.jpg",
+    "summary": "Patient electronic medical records (EMR), automated doctor appointment scheduling, telemedicine consultations, and lab test delivery.",
+    "problem": "Paper-based medical records led to lost patient histories, chaotic clinic waiting rooms, and high appointment no-show rates.",
+    "solution": "Engineered a secure, HIPAA-compliant patient & doctor web portal with automated SMS/WhatsApp appointment reminders, digital prescription generator, and instant lab report downloads.",
+    "results": [
+      "10,000+ patients securely managed digitally",
+      "65% reduction in appointment no-shows via automated alerts",
+      "Under 2-second access to comprehensive patient medical history"
+    ],
+    "heroMetric": "10k+ Patients",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Node.js"],
+    "featured": true
+  },
+  {
+    "id": "finedge-accounting-suite",
+    "title": "FinEdge Enterprise Ledger & Tax Compliance Suite",
+    "client": "Apex Industrial Corp",
+    "category": "Software Dev",
+    "categoryKey": "software",
+    "image": "/projects/erp-pos.jpg",
+    "summary": "Full-cycle double-entry financial accounting, multi-currency ledger, FBR sales tax compliance, and automated audit preparation system.",
+    "problem": "Spreadsheet-reliant bookkeeping caused delayed monthly financial closes and compliance audit headaches during quarter-ends.",
+    "solution": "Engineered a high-performance desktop + cloud accounting system with automated bank reconciliation, digital audit trails, and 1-click tax report generation.",
+    "results": [
+      "Monthly financial close cut from 12 days to 3 hours",
+      "100% compliant with statutory audit standards",
+      "Automated bank ledger reconciliation for 5,000+ monthly entries"
+    ],
+    "heroMetric": "3-Hour Monthly Close",
+    "tags": ["React", "Electron", "SQLite", "Node.js", "Tailwind CSS"],
+    "featured": false
+  },
+  {
+    "id": "silkroute-b2b-portal",
+    "title": "SilkRoute B2B Wholesale Marketplace & RFQ Engine",
+    "client": "SilkRoute Traders Ltd",
+    "category": "Web Apps",
+    "categoryKey": "web",
+    "image": "/projects/medix.jpg",
+    "summary": "Wholesale multi-vendor digital catalog, dynamic tiered pricing, request-for-quote (RFQ) negotiations, and integrated B2B checkout.",
+    "problem": "Wholesale orders were placed via haphazard WhatsApp voice notes and paper order books, leading to inventory allocation errors.",
+    "solution": "Created an end-to-end B2B e-commerce platform with buyer tier-pricing, digital invoice generation, credit management, and real-time inventory locking.",
+    "results": [
+      "$1.2M+ wholesale gross merchandise value processed",
+      "90% automated order intake without manual phone coordination",
+      "Repeat order reorder time reduced to under 60 seconds"
+    ],
+    "heroMetric": "$1.2M+ GMV",
+    "tags": ["Next.js", "React", "PostgreSQL", "Tailwind CSS", "Redis"],
+    "featured": false
+  },
+  {
+    "id": "pulseops-sales-crm",
+    "title": "PulseOps Intelligent CRM & Workflow Automator",
+    "client": "Prime Properties & Investments",
+    "category": "Automation",
+    "categoryKey": "automation",
+    "image": "/projects/logistics.jpg",
+    "summary": "Omnichannel lead capture, automated lead qualification chatbots, and sales rep pipeline task automation.",
+    "problem": "High-value property leads arriving from social media ads were going cold due to delayed response times of several hours.",
+    "solution": "Configured instantaneous instant-lead webhooks connected to an AI-driven WhatsApp qualification bot that captures budget, preferences, and books calls directly onto sales calendars.",
+    "results": [
+      "Initial response time dropped from 3 hours to 28 seconds",
+      "68% higher conversion from inbound lead to scheduled meeting",
+      "Automated 24/7 client follow-up sequences without human intervention"
+    ],
+    "heroMetric": "28s Lead Response",
+    "tags": ["Python", "FastAPI", "WhatsApp API", "React", "Docker"],
+    "featured": false
+  }
+]

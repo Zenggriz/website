@@ -1,0 +1,17 @@
+{
+  "short_name": "Zenggrix",
+  "name": "Zenggrix Digital Solutions",
+  "description": "The Digital Engine for Business Growth. Custom software, Web Apps, ERP & POS Systems.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B192C",
+  "theme_color": "#00C4CC",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "t1",
+    "name": "Muhammad Tariq",
+    "role": "Operations Director",
+    "company": "OmniRetail Superstores",
+    "location": "Karachi & Sukkur",
+    "service": "Cloud ERP & POS System",
+    "rating": 5,
+    "quote": "Zenggrix revolutionized our branch operations. Our barcode billing is now 3x faster, and stock discrepancies between the warehouse and outlets have dropped to zero. Their post-deployment support is unmatched.",
+    "metric": "3x Faster Checkout",
+    "initials": "MT",
+    "color": "from-cyan-500 to-blue-600"
+  },
+  {
+    "id": "t2",
+    "name": "Dr. Sarah Mansoor",
+    "role": "Medical Director",
+    "company": "Al-Shifa Specialty Clinic",
+    "location": "Sukkur, Sindh",
+    "service": "Medix Healthcare EMR Portal",
+    "rating": 5,
+    "quote": "The patient portal and automated WhatsApp appointment reminders cut our no-shows by more than 60%. Doctors can pull up patient histories in seconds. Highly recommended for any medical setup.",
+    "metric": "60% Fewer No-Shows",
+    "initials": "SM",
+    "color": "from-emerald-500 to-teal-600"
+  },
+  {
+    "id": "t3",
+    "name": "Kamran Baloch",
+    "role": "Managing Partner",
+    "company": "SwiftFreight Logistics",
+    "location": "Lahore, Pakistan",
+    "service": "Automated Fleet Dispatch Engine",
+    "rating": 5,
+    "quote": "Our drivers used to lose hours navigating unoptimized routes. Zenggrix built an automated dispatch engine with automated WhatsApp updates to clients that slashed our fuel costs and inbound support calls.",
+    "metric": "40% Fuel Cost Cut",
+    "initials": "KB",
+    "color": "from-amber-500 to-orange-600"
+  },
+  {
+    "id": "t4",
+    "name": "Bilal Ahmed",
+    "role": "CEO & Founder",
+    "company": "SilkRoute Traders Ltd",
+    "location": "Dubai & Karachi",
+    "service": "B2B Wholesale Portal & RFQ Engine",
+    "rating": 5,
+    "quote": "Moving our wholesale ordering from WhatsApp audio notes to Zenggrix's custom B2B web app has processed over $1M in orders without a single inventory error. They are true software engineers.",
+    "metric": "$1M+ B2B Volume",
+    "initials": "BA",
+    "color": "from-purple-500 to-indigo-600"
+  },
+  {
+    "id": "t5",
+    "name": "Syed Farhan Ali",
+    "role": "Managing Director",
+    "company": "Apex Industrial Corp",
+    "location": "Hyderabad, Sindh",
+    "service": "FinEdge Enterprise Accounting Suite",
+    "rating": 5,
+    "quote": "Our monthly accounting close used to take nearly two weeks of spreadsheet headaches. With Zenggrix's accounting software, our team closes books in under 3 hours with full statutory compliance.",
+    "metric": "3-Hour Monthly Close",
+    "initials": "FA",
+    "color": "from-blue-500 to-cyan-600"
+  }
+]

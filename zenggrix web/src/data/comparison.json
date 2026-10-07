@@ -1,0 +1,54 @@
+{
+  "badge": "Strategic Advantage",
+  "title": "Why Businesses Choose Zenggrix",
+  "subtitle": "How we compare against unvetted freelancers and expensive legacy software agencies.",
+  "columns": [
+    { "key": "freelancers", "name": "Solo Freelancers", "highlight": false },
+    { "key": "zenggrix", "name": "Zenggrix Digital Solutions", "highlight": true },
+    { "key": "agencies", "name": "Traditional Agencies", "highlight": false }
+  ],
+  "criteria": [
+    {
+      "feature": "100% Source Code & IP Handover",
+      "freelancers": "Inconsistent / Code often lost",
+      "zenggrix": "Full GitHub repo & DB schemas transferred",
+      "agencies": "High vendor lock-in or recurring license fees",
+      "zenggrixStatus": true
+    },
+    {
+      "feature": "Direct Communication",
+      "freelancers": "Risk of delays or ghosting",
+      "zenggrix": "Direct WhatsApp access to dedicated engineers",
+      "agencies": "Slow ticketing systems & non-technical account reps",
+      "zenggrixStatus": true
+    },
+    {
+      "feature": "Delivery Speed & Transparency",
+      "freelancers": "Vague timelines without formal sprints",
+      "zenggrix": "1-week agile sprints with live staging demo URLs",
+      "agencies": "Months of corporate bureaucracy & scope bloat",
+      "zenggrixStatus": true
+    },
+    {
+      "feature": "Local Hardware & Payment Integration",
+      "freelancers": "Limited offline POS hardware experience",
+      "zenggrix": "Turnkey JazzCash, EasyPaisa, Barcode & POS printers",
+      "agencies": "Extremely high custom enterprise surcharges",
+      "zenggrixStatus": true
+    },
+    {
+      "feature": "Post-Launch Warranty & Support",
+      "freelancers": "No guarantee after project completion",
+      "zenggrix": "30 days complimentary warranty + ongoing managed care",
+      "agencies": "Expensive multi-thousand dollar monthly retainers",
+      "zenggrixStatus": true
+    },
+    {
+      "feature": "Pricing Structure",
+      "freelancers": "Uncertain hourly billing with hidden extras",
+      "zenggrix": "Transparent fixed-scope milestone contracts",
+      "agencies": "Heavily inflated corporate agency markups",
+      "zenggrixStatus": true
+    }
+  ]
+}
