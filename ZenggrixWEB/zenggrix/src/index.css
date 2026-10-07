@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-brand-dark font-sans text-slate-300 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-white;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    @apply bg-brand-accent/30 text-white;
+  }
+
+  /* Accessible focus ring everywhere */
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline-none ring-2 ring-brand-accent ring-offset-2 ring-offset-brand-dark;
+  }
+
+  /* Custom scrollbar (desktop) */
+  @media (min-width: 1024px) {
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0b192c;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #00c4cc;
+    }
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .section {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  .card {
+    @apply rounded-2xl border border-brand-border bg-brand-card transition duration-300 ease-out;
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-1 hover:border-brand-accent/60 hover:shadow-glow;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold tracking-wide transition duration-300;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-accent text-brand-dark hover:bg-brand-accent-dark hover:shadow-glow active:scale-[0.98];
+  }
+
+  .btn-outline {
+    @apply btn border border-brand-border bg-transparent text-white hover:border-brand-accent hover:text-brand-accent;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-accent/30 bg-brand-accent-soft px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-accent;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold leading-tight sm:text-4xl lg:text-[2.75rem];
+  }
+
+  .lead {
+    @apply text-base leading-relaxed text-slate-300 sm:text-lg;
+  }
+
+  .code-chip {
+    @apply inline-flex min-w-[3.25rem] items-center justify-center rounded-lg border border-brand-border bg-brand-dark px-2.5 py-1 font-mono text-xs font-bold tracking-widest text-brand-accent;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-white via-white to-brand-accent bg-clip-text text-transparent;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(26px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    .reveal {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}

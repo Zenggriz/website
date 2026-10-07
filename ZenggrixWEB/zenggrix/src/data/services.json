@@ -1,0 +1,38 @@
+[
+  {
+    "id": "software-development",
+    "title": "Software Development",
+    "code": "</>",
+    "description": "Custom desktop applications, enterprise logic, and automated software tailored to your business needs."
+  },
+  {
+    "id": "websites-and-web-apps",
+    "title": "Websites & Web Applications",
+    "code": "WEB",
+    "description": "High-performance React & Next.js web applications and responsive corporate websites."
+  },
+  {
+    "id": "erp-and-pos",
+    "title": "ERP & POS Systems",
+    "code": "ERP",
+    "description": "Integrated Point of Sale and Enterprise Resource Planning systems for smooth daily operations."
+  },
+  {
+    "id": "business-automation",
+    "title": "Business Automation",
+    "code": "AUTO",
+    "description": "Smart workflow automation to eliminate manual tasks and optimize business efficiency."
+  },
+  {
+    "id": "digital-business-setup",
+    "title": "Digital Business Setup",
+    "code": "SETUP",
+    "description": "Complete digital establishment including branding, profiles, and online infrastructure."
+  },
+  {
+    "id": "digital-marketing-solutions",
+    "title": "Digital Marketing Solutions",
+    "code": "MKT",
+    "description": "Strategic digital campaigns, social media management, and online visibility enhancement."
+  }
+]

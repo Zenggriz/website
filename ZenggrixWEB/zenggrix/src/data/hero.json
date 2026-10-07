@@ -1,0 +1,20 @@
+{
+  "headline": "Build • Digitize • Grow",
+  "mainTagline": "The Digital Engine for Business Growth.",
+  "description": "Zenggrix is a digital solutions organization helping businesses build, digitize, and grow.",
+  "aboutParagraph": "From establishing your online presence to developing systems that improve everyday operations, we create practical, scalable solutions designed around your business needs.",
+  "primaryCta": {
+    "label": "Start Your Project",
+    "target": "#contact"
+  },
+  "secondaryCta": {
+    "label": "Explore Services",
+    "target": "#services"
+  },
+  "valueBadgeLabel": "Why Zenggrix",
+  "valuePoints": [
+    { "title": "Smart Solutions", "subtitle": "for Real Problems" },
+    { "title": "Reliable & Scalable", "subtitle": "for Long-Term Success" },
+    { "title": "Your Growth", "subtitle": "is Our Mission" }
+  ]
+}
