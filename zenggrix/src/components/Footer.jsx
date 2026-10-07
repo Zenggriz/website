@@ -7,8 +7,10 @@ import {
   MapPinIcon,
   ClockIcon,
   WhatsAppIcon,
+  InstagramIcon,
   LinkedInIcon,
   FacebookIcon,
+  TwitterIcon,
 } from './icons';
 
 const QUICK_LINKS = [
@@ -143,8 +145,8 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <a href="#home" className="flex items-center gap-2.5" aria-label={`${company.name} home`}>
-              <span className="grid h-9 w-9 place-items-center rounded-lg border border-brand-accent/40 bg-brand-accent-soft font-display text-base font-bold text-brand-accent">
-                Z
+              <span className="grid h-10 w-10 place-items-center rounded-sm font-display text-base font-bold text-brand-accent">
+                <img className="rounded-s" src="logo.png" alt={company.name} />
               </span>
               <span className="font-display text-xl font-bold text-white">
                 {company.name}
@@ -161,6 +163,8 @@ export function Footer() {
                 { href: company.socials.linkedin, label: 'LinkedIn', Icon: LinkedInIcon },
                 { href: company.socials.facebook, label: 'Facebook', Icon: FacebookIcon },
                 { href: company.socials.whatsapp, label: 'WhatsApp', Icon: WhatsAppIcon },
+                { href: company.socials.instagram, label: 'Instagram', Icon: InstagramIcon },
+                { href: company.socials.twitter, label: 'Twitter', Icon: TwitterIcon },
               ].map(({ href, label, Icon }) => (
                 <a
                   key={label}

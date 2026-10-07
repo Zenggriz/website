@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ServicesGrid from './components/ServicesGrid';
@@ -10,6 +11,18 @@ import Contact, { Footer } from './components/Footer';
  * JSON in src/data/, so copy changes never touch component code.
  */
 export default function App() {
+  useEffect(() => {
+    const preventContextMenu = (e) => e.preventDefault();
+    const preventDrag = (e) => e.preventDefault();
+
+    document.addEventListener("contextmenu", preventContextMenu);
+    document.addEventListener("dragstart", preventDrag);
+
+    return () => {
+      document.removeEventListener("contextmenu", preventContextMenu);
+      document.removeEventListener("dragstart", preventDrag);
+    };
+  }, []);
   return (
     <>
       <a

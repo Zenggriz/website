@@ -7,6 +7,28 @@
     color-scheme: dark;
   }
 
+  /* Content protection */
+  * {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  /* Allow text interaction in form fields */
+  input,
+  textarea {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+
+  /* Prevent image dragging */
+  img {
+    -webkit-user-drag: none;
+    user-drag: none;
+  }
+
+
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
@@ -39,13 +61,16 @@
     ::-webkit-scrollbar {
       width: 10px;
     }
+
     ::-webkit-scrollbar-track {
       background: #0b192c;
     }
+
     ::-webkit-scrollbar-thumb {
       background: #1e293b;
       border-radius: 999px;
     }
+
     ::-webkit-scrollbar-thumb:hover {
       background: #00c4cc;
     }
@@ -121,11 +146,13 @@
     html {
       scroll-behavior: auto;
     }
+
     .reveal {
       opacity: 1 !important;
       transform: none !important;
       transition: none !important;
     }
+
     *,
     *::before,
     *::after {
