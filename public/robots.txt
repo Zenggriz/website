@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /contact
+
+Sitemap: https://zenggrix.com/sitemap.xml

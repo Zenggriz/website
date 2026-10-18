@@ -1,0 +1,26 @@
+[
+  {
+    "id": "discover",
+    "step": "01",
+    "title": "Understand",
+    "description": "We understand your goals, current processes, challenges, and requirements to identify the right digital solution for your business."
+  },
+  {
+    "id": "design",
+    "step": "02",
+    "title": "Plan & Design",
+    "description": "We plan the solution, user experience, and technical structure with a focus on simplicity, reliability, scalability, and future growth."
+  },
+  {
+    "id": "build",
+    "step": "03",
+    "title": "Build & Implement",
+    "description": "We develop, integrate, and implement the solution, turning your requirements and manual processes into practical digital systems."
+  },
+  {
+    "id": "grow",
+    "step": "04",
+    "title": "Launch & Support",
+    "description": "We launch your solution, provide ongoing support, improvements, and upgrades to help your business operate and grow digitally."
+  }
+]

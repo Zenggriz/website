@@ -1,0 +1,38 @@
+[
+  {
+    "id": "software-development",
+    "title": "Software Development",
+    "code": "</>",
+    "description": "Custom software solutions built to simplify business operations, manage data, automate processes, and solve specific business needs."
+  },
+  {
+    "id": "websites-and-web-apps",
+    "title": "Websites & Web Applications",
+    "code": "WEB",
+    "description": "Professional, responsive websites and modern web applications designed to strengthen your online presence and support business growth."
+  },
+  {
+    "id": "erp-and-pos",
+    "title": "ERP & POS Systems",
+    "code": "ERP",
+    "description": "Practical ERP and POS solutions to manage sales, customers, operations, records, and everyday business activities from one system."
+  },
+  {
+    "id": "business-automation",
+    "title": "Business Automation",
+    "code": "AUTO",
+    "description": "Smart digital workflows that reduce repetitive manual work, improve accuracy, and make everyday business processes faster and more efficient."
+  },
+  {
+    "id": "digital-business-setup",
+    "title": "Digital Business Setup",
+    "code": "SETUP",
+    "description": "Complete digital setup for businesses, including online presence, business profiles, branding essentials, and the digital tools needed to get started."
+  },
+  {
+    "id": "digital-marketing-solutions",
+    "title": "Digital Marketing Solutions",
+    "code": "MKT",
+    "description": "Practical digital marketing solutions to build your online presence, reach the right audience, and strengthen your brand across digital platforms."
+  }
+]
