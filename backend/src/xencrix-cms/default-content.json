@@ -1,0 +1,79 @@
+{
+  "company": {
+    "name": "Zenggrix",
+    "legalName": "Zenggrix Digital Solutions",
+    "tagline": "The Digital Engine for Business Growth.",
+    "subTagline": "DIGITAL SOLUTIONS",
+    "phone": "+92 321 1221136",
+    "email": "zenggrix@gmail.com",
+    "address": "House 1/4, near Hira Hostel, Barrage Colony, Sukkur, Sindh 65200",
+    "city": "Sukkur, Sindh",
+    "workingHours": "Mon–Wed & Fri–Sun: 8:00 AM – 8:00 PM (Thursday Closed)",
+    "socials": {
+      "linkedin": "https://linkedin.com/company/zenggrix",
+      "twitter": "https://twitter.com/zenggrix",
+      "facebook": "https://facebook.com/zenggrix",
+      "instagram": "https://instagram.com/zenggrix",
+      "whatsapp": "https://wa.me/923211221136"
+    }
+  },
+  "hero": {
+    "headline": "Build • Digitize • Grow",
+    "mainTagline": "The Digital Engine for Business Growth.",
+    "description": "Zenggrix is a digital solutions organization helping businesses and organizations build, digitize, and grow through practical technology.",
+    "aboutParagraph": "From establishing your digital presence to developing software, business systems, and automation, we create practical and scalable solutions designed around your goals, operations, and long-term growth.",
+    "primaryCta": { "label": "Start Your Project", "target": "#contact" },
+    "secondaryCta": { "label": "Explore Our Services", "target": "#services" },
+    "valueBadgeLabel": "Why Zenggrix",
+    "valuePoints": [
+      { "title": "Practical Solutions", "subtitle": "Built for Real Business Needs" },
+      { "title": "Reliable & Scalable", "subtitle": "Designed for Long-Term Growth" },
+      { "title": "Technology with Purpose", "subtitle": "Focused on Your Business Growth" }
+    ]
+  },
+  "process": [
+    { "id": "discover", "step": "01", "title": "Understand", "description": "We understand your goals, current processes, challenges, and requirements to identify the right digital solution for your business." },
+    { "id": "design", "step": "02", "title": "Plan & Design", "description": "We plan the solution, user experience, and technical structure with a focus on simplicity, reliability, scalability, and future growth." },
+    { "id": "build", "step": "03", "title": "Build & Implement", "description": "We develop, integrate, and implement the solution, turning your requirements and manual processes into practical digital systems." },
+    { "id": "grow", "step": "04", "title": "Launch & Support", "description": "We launch your solution, provide ongoing support, improvements, and upgrades to help your business operate and grow digitally." }
+  ],
+  "services": [
+    { "id": "software-development", "title": "Software Development", "code": "</>", "description": "Custom software solutions built to simplify business operations, manage data, automate processes, and solve specific business needs." },
+    { "id": "websites-and-web-apps", "title": "Websites & Web Applications", "code": "WEB", "description": "Professional, responsive websites and modern web applications designed to strengthen your online presence and support business growth." },
+    { "id": "erp-and-pos", "title": "ERP & POS Systems", "code": "ERP", "description": "Practical ERP and POS solutions to manage sales, customers, operations, records, and everyday business activities from one system." },
+    { "id": "business-automation", "title": "Business Automation", "code": "AUTO", "description": "Smart digital workflows that reduce repetitive manual work, improve accuracy, and make everyday business processes faster and more efficient." },
+    { "id": "digital-business-setup", "title": "Digital Business Setup", "code": "SETUP", "description": "Complete digital setup for businesses, including online presence, business profiles, branding essentials, and the digital tools needed to get started." },
+    { "id": "digital-marketing-solutions", "title": "Digital Marketing Solutions", "code": "MKT", "description": "Practical digital marketing solutions to build your online presence, reach the right audience, and strengthen your brand across digital platforms." }
+  ],
+  "team": [
+    { "id": "hasaan-moeen", "name": "Hasaan Moeen", "role": "Founder & CEO", "bio": "Leading Zenggrix's strategic vision, business growth, and technology-driven initiatives to help organizations adopt practical digital solutions, improve efficiency, and scale with confidence.", "linkedin": "https://www.linkedin.com/in/hasaan-moeen-8bb516318" },
+    { "id": "muhammad-hassaan", "name": "Muhammad Hassaan", "role": "Co-Founder & CTO", "bio": "Shaping Zenggrix's strategic and technical vision while leading the development of scalable software solutions, digital systems, and technology infrastructure focused on innovation, efficiency, automation, and sustainable business growth.", "linkedin": "https://linkedin.com/in/mrhassaan" }
+  ],
+  "pages": {
+    "home": {
+      "title": "Zenggrix Digital Solutions | Build, Digitize & Grow",
+      "description": "Zenggrix helps businesses build, digitize, and grow with software development, websites, ERP and POS systems, automation, and digital marketing."
+    },
+    "services": {
+      "eyebrow": "What We Do",
+      "title": "Digital services built around your business",
+      "description": "From your first digital presence to custom systems and workflow automation, we build practical solutions around how your business works.",
+      "metaTitle": "Digital Services for Businesses in Sukkur | Zenggrix",
+      "metaDescription": "Explore Zenggrix services: custom software, websites and web apps, ERP and POS systems, business automation, digital setup, and marketing."
+    },
+    "about": {
+      "eyebrow": "About Zenggrix",
+      "title": "A practical partner for your digital growth",
+      "description": "We help businesses improve everyday work with thoughtful software, reliable digital systems, and solutions designed around real needs.",
+      "metaTitle": "About Zenggrix | Digital Solutions in Sukkur",
+      "metaDescription": "Meet the Zenggrix leadership team and learn how we understand, plan, build, and support practical digital solutions."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let’s talk about what your business needs",
+      "description": "Get in touch with our team in Sukkur. We’ll listen to your goals and help you find a practical next step.",
+      "metaTitle": "Contact Zenggrix | Visit Our Sukkur Office",
+      "metaDescription": "Contact Zenggrix by phone, email, or WhatsApp, and find our office in Barrage Colony, Sukkur, Sindh."
+    }
+  }
+}
